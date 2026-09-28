@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #101820;
+    color: white;
+    text-align: center;
+}
+
+
+/* CABEÇALHO */
+
+header {
+    background: #075e36;
+    padding: 30px;
+    border-bottom: 4px solid #f5c542;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+/* CONTEÚDO */
+
+main {
+    padding: 40px 20px;
+}
+
+main h2 {
+    margin-bottom: 35px;
+}
+
+
+/* CARTAS */
+
+.cartas {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+
+/* CARTA INDIVIDUAL */
+
+.carta {
+    width: 230px;
+    min-height: 360px;
+
+    background: linear-gradient(
+        145deg,
+        #d4af37,
+        #fff1a8,
+        #b8860b
+    );
+
+    color: #111;
+
+    border: 5px solid white;
+    border-radius: 18px;
+
+    padding: 18px;
+
+    box-shadow: 0 10px 25px black;
+
+    transition: 0.3s;
+}
+
+
+/* EFEITO AO PASSAR O MOUSE */
+
+.carta:hover {
+    transform: translateY(-10px) scale(1.03);
+}
+
+
+/* NÚMERO */
+
+.numero {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* FOTO */
+
+.foto {
+    width: 130px;
+    height: 130px;
+
+    margin: 10px auto;
+
+    border-radius: 50%;
+
+    background: #075e36;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 55px;
+
+    border: 4px solid white;
+}
+
+
+/* NOME */
+
+.carta h3 {
+    font-size: 21px;
+    margin: 10px 0 5px;
+}
+
+
+/* PAÍS */
+
+.carta p {
+    font-size: 16px;
+}
+
+
+/* STATUS */
+
+.status {
+    display: flex;
+
+    justify-content: space-around;
+
+    gap: 5px;
+
+    margin-top: 20px;
+
+    font-size: 11px;
+
+    font-weight: bold;
+}
+
+.status span {
+    background: #111;
+
+    color: white;
+
+    padding: 7px 5px;
+
+    border-radius: 6px;
+}
+
+
+/* FODASE */
+
+.fodase {
+    margin: 70px auto 40px;
+
+    padding: 50px 20px;
+
+    max-width: 800px;
+
+    background: black;
+
+    border: 4px solid #f5c542;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px black;
+}
+
+.fodase h2 {
+    font-size: 60px;
+
+    color: #f5c542;
+
+    margin-bottom: 20px;
+}
+
+.fodase p {
+    font-size: 20px;
+
+    color: white;
+
+    margin-top: 10px;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    margin-top: 30px;
+
+    padding: 20px;
+
+    background: #075e36;
+
+    border-top: 3px solid #f5c542;
+}
